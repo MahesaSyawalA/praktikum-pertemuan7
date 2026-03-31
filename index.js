@@ -78,7 +78,7 @@ buttonDaftar.addEventListener('click',function(){
     pesanDaftar.style.color = '#f97316';
   }
 
-  if (value.length > 3) {
+  if (value.length > 2) {
     pesanDaftar.innerText="'Halo, " +value+ "! Kamu terdaftar di TechConf 2024";
     pesanDaftar.style.color = '#22c55e';
   }
