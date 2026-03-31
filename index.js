@@ -73,7 +73,7 @@ buttonDaftar.addEventListener('click',function(){
   if (value.length === 0  ) {
     pesanDaftar.innerText="Nama tidak boleh kosong!!";
     pesanDaftar.style.color = '#ef4444';
-  }else if (value.length < 2) {
+  }else if (value.length < 3) {
     pesanDaftar.innerText="Nama minimal 3 karakter!";
     pesanDaftar.style.color = '#f97316';
   }
